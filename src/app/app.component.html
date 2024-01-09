@@ -1,547 +1,705 @@
-<header>
-  <!-- lg+ -->
-  <div class="bg-gray-900">
-    <div class="px-4 mx-auto sm:px-6 lg:px-8">
-      <nav class="relative flex items-center justify-between h-16 lg:h-20">
-        <div class="hidden lg:flex lg:items-center lg:space-x-10">
-          <a href="#" title="" class="text-base font-medium text-white">
-            About
-          </a>
+<div class="bg-gray-900">
+  <header>
+    <!-- lg+ -->
+    <div class="bg-gray-900">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+        <nav class="relative flex items-center justify-between h-16 lg:h-20">
+          <div class="hidden lg:flex lg:items-center lg:space-x-10">
+            <a
+              href="#Skills"
+              title=""
+              class="text-base font-medium text-white hover:text-blue-600"
+            >
+              Skills
+            </a>
 
-          <a href="#" title="" class="text-base font-medium text-white">
-            Experience
-          </a>
+            <a
+              href="#Experience"
+              title=""
+              class="text-base font-medium text-white hover:text-blue-600"
+            >
+              Experience
+            </a>
 
-          <a href="#" title="" class="text-base font-medium text-white">
-            Projects
-          </a>
+            <a
+              href="#Work"
+              title=""
+              class="text-base font-medium text-white hover:text-blue-600"
+            >
+              Work
+            </a>
+          </div>
+
+          <button
+            type="button"
+            class="inline-flex p-2 ml-auto text-blue-600 transition-all duration-200 rounded-md lg:hidden"
+          >
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+
+          <div class="hidden lg:flex lg:items-center lg:space-x-10">
+            <a
+              href="#Contact"
+              title=""
+              class="flex items-center justify-center h-10 text-white bg-blue-600 font-medium p-4 rounded-full"
+            >
+              Contact
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- xs to lg -->
+    <nav class="py-4 bg-gray-900 lg:hidden">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <p
+            class="text-sm font-semibold tracking-widest text-blue-500 uppercase"
+          >
+            Menu
+          </p>
+
+          <button
+            type="button"
+            class="inline-flex p-2 text-blue-600 transition-all duration-200 rounded-md"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
 
-        <div class="lg:absolute lg:-translate-x-1/2 lg:inset-y-5 lg:left-1/2">
-          <div class="flex-shrink-0">
-            <a href="#" title="" class="flex">
+        <div class="mt-6">
+          <div class="flex flex-col space-y-2">
+            <a
+              href="#Skills"
+              title=""
+              class="py-2 text-base font-medium transition-all duration-200 text-white"
+            >
+              Skills
+            </a>
+
+            <a
+              href="#Experience"
+              title=""
+              class="py-2 text-base font-medium transition-all duration-200 text-white"
+            >
+              Experience
+            </a>
+
+            <a
+              href="#Work"
+              title=""
+              class="py-2 text-base font-medium transition-all duration-200 text-white"
+            >
+              Work
+            </a>
+          </div>
+
+          <hr class="my-4 border-blue-600" />
+
+          <div class="flex flex-col space-y-2">
+            <a
+              href="#Contact"
+              title=""
+              class="py-2 text-base font-medium transition-all duration-200 text-blue-500"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="py-10 bg-gray-900 lg:py-0">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div
+        class="grid items-stretch grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 xl:gap-x-24"
+      >
+        <div class="h-fit pr-12 lg:order-2 lg:mb-40 lg:mt-24">
+          <div class="relative h-full lg:h-auto">
+            <div
+              class="absolute w-full h-full -mb-12 overflow-hidden bg-gradient-to-r from-fuchsia-600 to-blue-600 top-12 left-12 xl:left-16 lg:top-24 lg:scale-y-105 lg:origin-top"
+            >
               <img
-                class="w-auto h-8 lg:h-10"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                class="object-cover object-right w-full h-full scale-150"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/lines.svg"
                 alt=""
               />
+            </div>
+            <div class="relative lg:top-16">
+              <img
+                class="w-64 h-64 rounded-full mx-auto"
+                src="../assets/dp-02.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center justify-start py-10 lg:order-1 sm:py-16 lg:py-24 xl:py-48"
+        >
+          <div>
+            <h1
+              class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+            >
+              Hi, I am
+
+              <span class="sm:block"> Shivansh Shekhar </span>
+            </h1>
+            <p class="text-xl leading-relaxed text-gray-200 mt-9">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia conse duis enim velit mollit.
+              Exercitation veniam.
+            </p>
+            <p class="mt-6 text-xl leading-relaxed text-gray-200">
+              Velit officia conse duis enim velit mollit. Exercit ation veniam
+              consequat sunt nostrud amet.
+            </p>
+            <a
+              class="inline-flex items-center justify-center mt-12 rounded-full w-fit p-4 border border-blue-600 px-12 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto transition-all duration-200"
+              href="#Skills"
+            >
+              More About Me
             </a>
           </div>
         </div>
-
-        <button
-          type="button"
-          class="inline-flex p-2 ml-5 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
-        >
-          <svg
-            class="w-6 h-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
-          </svg>
-        </button>
-
-        <div class="hidden lg:flex lg:items-center lg:space-x-10">
-          <a
-            href="#"
-            title=""
-            class="flex items-center justify-center h-10 text-white bg-blue-600 font-medium p-4 rounded-full"
-          >
-            Contact
-          </a>
-        </div>
-      </nav>
-    </div>
-  </div>
-
-  <!-- xs to lg -->
-  <nav class="py-4 bg-gray-900 lg:hidden">
-    <div class="px-4 mx-auto sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between">
-        <p class="text-sm font-semibold tracking-widest text-white uppercase">
-          Menu
-        </p>
-
-        <button
-          type="button"
-          class="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-100 hover:bg-gray-100"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-6 h-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
-      </div>
-
-      <div class="mt-6">
-        <div class="flex flex-col space-y-2">
-          <a
-            href="#"
-            title=""
-            class="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
-          >
-            About
-          </a>
-
-          <a
-            href="#"
-            title=""
-            class="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
-          >
-            Experience
-          </a>
-
-          <a
-            href="#"
-            title=""
-            class="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
-          >
-            Projects
-          </a>
-        </div>
-
-        <hr class="my-4 border-gray-200" />
-
-        <div class="flex flex-col space-y-2">
-          <a
-            href="#"
-            title=""
-            class="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
-          >
-            Contact
-          </a>
-        </div>
       </div>
     </div>
-  </nav>
-</header>
+  </section>
 
-<section
-  class="relative h-screen flex flex-col items-center justify-center text-center text-white"
->
-  <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-    <video
-      #video
-      class="min-w-full min-h-full absolute object-cover"
-      src="../assets/typing.mp4"
-      type="video/mp4"
-      autoplay
-      muted
-      loop
-      (canplay)="video.play()"
-      (loadedmetadata)="video.muted = true"
-    ></video>
-  </div>
-  <div class="video-content space-y-2 z-10">
-    <h2 class="font-light text-6xl">Routine.zip</h2>
-  </div>
-</section>
-
-<style>
-  .video-docker video {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .video-docker::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-  }
-</style>
-
-<section class="py-10 bg-gray-900 lg:py-0">
-  <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-    <div
-      class="grid items-stretch grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 xl:gap-x-24"
-    >
-      <div class="h-full pr-12 lg:order-2 lg:mb-40 lg:mt-24">
-        <div class="relative h-full lg:h-auto">
-          <div
-            class="absolute w-full h-full -mb-12 overflow-hidden bg-gradient-to-r from-fuchsia-600 to-blue-600 top-12 left-12 xl:left-16 lg:top-0 lg:scale-y-105 lg:origin-top"
-          >
-            <img
-              class="object-cover object-right w-full h-full scale-150"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/lines.svg"
-              alt=""
-            />
-          </div>
-          <div class="relative lg:-top-12">
-            <img
-              class=""
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/girl-drinking-coffee.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="flex items-center justify-start py-10 lg:order-1 sm:py-16 lg:py-24 xl:py-48"
-      >
-        <div>
-          <h1
-            class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-          >
-            Hi, I am
-
-            <span class="sm:block"> Shivansh Shekhar </span>
-          </h1>
-          <p class="text-xl leading-relaxed text-gray-200 mt-9">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia conse duis enim velit mollit. Exercitation
-            veniam.
-          </p>
-          <p class="mt-6 text-xl leading-relaxed text-gray-200">
-            Velit officia conse duis enim velit mollit. Exercit ation veniam
-            consequat sunt nostrud amet.
-          </p>
-          <a
-            class="inline-flex items-center justify-center mt-12 rounded-full w-fit p-4 border border-blue-600 px-12 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto transition-all duration-200"
-            href="#"
-          >
-            Learn More About Me
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-10 bg-gray-900 sm:py-5 lg:py-10 text-white m-0">
-  <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-    <div class="max-w-2xl mx-auto text-center">
-      <h2
-        class="text-3xl font-bold leading-tight text-blue-500 sm:text-4xl lg:text-5xl"
-      >
-        Experience
-      </h2>
-      <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-      </p>
-    </div>
-
-    <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
-      <div
-        class="transition-all duration-200 bg-gray-900 border border-blue-600 shadow-lg cursor-pointer hover:bg-gray-800 rounded-md"
-      >
-        <h4
-          class="flex sm:justify-between sm:flex-row flex-col w-full px-2 py-5 sm:p-6"
-        >
-          <span class="flex text-lg font-semibold w-fit">
-            Software Developer
-          </span>
-          <span class="flex text-lg font-semibold text-blue-500 w-fit">
-            Mohesu Enterprises
-          </span>
-        </h4>
-
-        <p
-          class="flex items-center justify-between sm:px-6 sm:pb-3 px-2 pb-3 text-gray-500"
-        >
-          <span class="flex text-base"> October 2023 - </span>
-        </p>
-
-        <div class="px-2 pb-5 sm:px-6 sm:pb-6">
-          <p>
-            Amet minim mollit non deserunt ullamco est sit do amet sint. Velit
-            officia consequat duis enim velit mollit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-gray-900 sm:pt-24 pt-12">
-  <h3
-    class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center"
-  >
-    Featured
-  </h3>
   <div
-    class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+    class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 px-8 pt-4 pb-16 bg-gray-900 text-white"
+    id="Skills"
   >
-    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div
-        class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
-      >
-        <img
-          alt="Party"
-          src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          class="absolute inset-0 h-full w-full object-cover"
-        />
+    <div class="h-fit bg-gray-900">
+      <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+        <span
+          class="absolute inset-0 border-2 border-dashed border-blue-600"
+        ></span>
+
+        <div
+          class="relative flex h-full transform items-end border-2 border-blue-600 bg-gray-900 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+        >
+          <div
+            class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 sm:h-12 sm:w-12"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+
+            <h2 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h2>
+          </div>
+
+          <div
+            class="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+          >
+            <h3 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h3>
+
+            <p class="mt-4 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+            </p>
+
+            <p class="mt-8 font-bold">Read more</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="h-fit bg-gray-900">
+      <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+        <span
+          class="absolute inset-0 border-2 border-dashed border-blue-600"
+        ></span>
+
+        <div
+          class="relative flex h-full transform items-end border-2 border-blue-600 bg-gray-900 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+        >
+          <div
+            class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 sm:h-12 sm:w-12"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+
+            <h2 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h2>
+          </div>
+
+          <div
+            class="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+          >
+            <h3 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h3>
+
+            <p class="mt-4 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+            </p>
+
+            <p class="mt-8 font-bold">Read more</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="h-fit bg-gray-900">
+      <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+        <span
+          class="absolute inset-0 border-2 border-dashed border-blue-600"
+        ></span>
+
+        <div
+          class="relative flex h-full transform items-end border-2 border-blue-600 bg-gray-900 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+        >
+          <div
+            class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 sm:h-12 sm:w-12"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+
+            <h2 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h2>
+          </div>
+
+          <div
+            class="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+          >
+            <h3 class="mt-4 text-xl font-medium sm:text-2xl">
+              Go around the world
+            </h3>
+
+            <p class="mt-4 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+            </p>
+
+            <p class="mt-8 font-bold">Read more</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <section
+    class="py-10 bg-gray-900 sm:py-5 lg:py-10 text-white m-0"
+    id="Experience"
+  >
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2
+          class="text-3xl font-bold leading-tight text-blue-500 sm:text-4xl lg:text-5xl"
+        >
+          Experience
+        </h2>
+        <p
+          class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"
+        >
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+        </p>
       </div>
 
-      <div class="lg:py-24">
-        <h3
-          class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent"
+      <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+        <div
+          class="transition-all duration-200 bg-gray-900 border border-blue-600 shadow-lg cursor-pointer hover:bg-gray-800 rounded-md"
         >
-          CloudJot
+          <h4
+            class="flex sm:justify-between sm:flex-row flex-col w-full px-2 py-5 sm:p-6"
+          >
+            <span class="flex text-lg font-semibold w-fit">
+              Software Developer
+            </span>
+            <span class="flex text-lg font-semibold text-blue-500 w-fit">
+              Mohesu Enterprises
+            </span>
+          </h4>
+
+          <p
+            class="flex items-center justify-between sm:px-6 sm:pb-3 px-2 pb-3 text-gray-500"
+          >
+            <span class="flex text-base"> October 2023 - </span>
+          </p>
+
+          <div class="px-2 pb-5 sm:px-6 sm:pb-6">
+            <p>
+              Amet minim mollit non deserunt ullamco est sit do amet sint. Velit
+              officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-900 sm:pt-24 pt-12" id="Work">
+    <h3
+      class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center"
+    >
+      Featured
+    </h3>
+    <div
+      class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+    >
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div
+          class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
+        >
+          <img
+            alt=""
+            src="../assets/doom.jpg"
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+
+        <div class="lg:py-24">
+          <h3
+            class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent"
+          >
+            CloudJot
+          </h3>
+
+          <p class="mt-4 text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
+            hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
+            minus veniam tempora deserunt? Molestiae eius quidem quam repellat.
+          </p>
+          <a
+            class="inline-flex items-center justify-center mt-12 rounded-md w-fit px-4 py-2 border border-blue-600 px-12 text-sm font-medium text-white hover:bg-gray-800 focus:outline-none focus:ring active:bg-gray-800 sm:w-auto transition-all duration-200"
+            href="#"
+          >
+            Link
+          </a>
+          <div class="flex flex-wrap items-center px-0 py-4">
+            <a
+              href="#"
+              class="bg-blue-600 rounded-md px-2 py-1 rounded text-m text-white mx-1 my-2"
+            >
+              tag
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-900 text-white">
+    <div
+      class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+    >
+      <div class="mx-auto max-w-lg text-center">
+        <h3
+          class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center"
+        >
+          Board
         </h3>
 
-        <p class="mt-4 text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+        <p class="mt-4 text-gray-300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+          aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit
+          consequuntur saepe laborum.
         </p>
+      </div>
+
+      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a
-          class="inline-flex items-center justify-center mt-12 rounded-md w-fit px-4 py-2 border border-blue-600 px-12 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto transition-all duration-200"
-          href="#"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-blue-600/10 hover:shadow-blue-600/10"
+          href="/services/digital-campaigns"
         >
-          Link
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10 text-blue-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a5.927 5.927 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707-.195-.195.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a5.922 5.922 0 0 1 1.013.16l3.134-3.133a2.772 2.772 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146zm.122 2.112v-.002.002zm0-.002v.002a.5.5 0 0 1-.122.51L6.293 6.878a.5.5 0 0 1-.511.12H5.78l-.014-.004a4.507 4.507 0 0 0-.288-.076 4.922 4.922 0 0 0-.765-.116c-.422-.028-.836.008-1.175.15l5.51 5.509c.141-.34.177-.753.149-1.175a4.924 4.924 0 0 0-.192-1.054l-.004-.013v-.001a.5.5 0 0 1 .12-.512l3.536-3.535a.5.5 0 0 1 .532-.115l.096.022c.087.017.208.034.344.034.114 0 .23-.011.343-.04L9.927 2.028c-.029.113-.04.23-.04.343a1.779 1.779 0 0 0 .062.46z"
+            />
+          </svg>
+
+          <h2 class="mt-4 text-xl font-bold text-white">Individual Tagging</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+          </p>
+          <div class="flex flex-wrap items-center px-0 py-4">
+            <a
+              href="#"
+              class="bg-blue-600 rounded-md px-2 py-1 rounded text-m text-white mx-1 my-2"
+            >
+              tag
+            </a>
+          </div>
         </a>
-        <div class="flex flex-wrap items-center px-0 py-4">
-          <a
-            href="#"
-            class="bg-blue-600 rounded-md px-2 py-1 rounded text-m text-white mx-1 my-2"
-          >
-            tag
-          </a>
-        </div>
       </div>
-    </div>
-  </div>
-</section>
 
-<section class="bg-gray-900 text-white">
-  <div
-    class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
-  >
-    <div class="mx-auto max-w-lg text-center">
-      <h3
-        class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center"
-      >
-        Board
-      </h3>
-
-      <p class="mt-4 text-gray-300">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
-        aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur
-        saepe laborum.
-      </p>
-    </div>
-
-    <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <a
-        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-blue-600/10 hover:shadow-blue-600/10"
-        href="/services/digital-campaigns"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-10 w-10 text-blue-600"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
+      <div class="mt-12 text-center">
+        <a
+          href="#"
+          class="inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-600"
         >
-          <path
-            d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a5.927 5.927 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707-.195-.195.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a5.922 5.922 0 0 1 1.013.16l3.134-3.133a2.772 2.772 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146zm.122 2.112v-.002.002zm0-.002v.002a.5.5 0 0 1-.122.51L6.293 6.878a.5.5 0 0 1-.511.12H5.78l-.014-.004a4.507 4.507 0 0 0-.288-.076 4.922 4.922 0 0 0-.765-.116c-.422-.028-.836.008-1.175.15l5.51 5.509c.141-.34.177-.753.149-1.175a4.924 4.924 0 0 0-.192-1.054l-.004-.013v-.001a.5.5 0 0 1 .12-.512l3.536-3.535a.5.5 0 0 1 .532-.115l.096.022c.087.017.208.034.344.034.114 0 .23-.011.343-.04L9.927 2.028c-.029.113-.04.23-.04.343a1.779 1.779 0 0 0 .062.46z"
-          />
-        </svg>
-
-        <h2 class="mt-4 text-xl font-bold text-white">Individual Tagging</h2>
-
-        <p class="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-        </p>
-        <div class="flex flex-wrap items-center px-0 py-4">
-          <a
-            href="#"
-            class="bg-blue-600 rounded-md px-2 py-1 rounded text-m text-white mx-1 my-2"
-          >
-            tag
-          </a>
-        </div>
-      </a>
-    </div>
-
-    <div class="mt-12 text-center">
-      <a
-        href="#"
-        class="inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-600"
-      >
-        My Github
-      </a>
-    </div>
-  </div>
-</section>
-
-<div class="sm:px-64 px-8 py-12 bg-gray-900 text-white">
-  <h3
-    class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center mb-8"
-  >
-    Achievements
-  </h3>
-  <div class="space-y-4">
-    <details class="group border-s-4 border-blue-600 bg-gray-900 p-6" open>
-      <summary class="flex cursor-pointer items-center justify-between gap-1.5">
-        <h2 class="text-lg font-medium text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing?
-        </h2>
-      </summary>
-
-      <p class="mt-4 leading-relaxed text-white">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-        veritatis molestias culpa in, recusandae laboriosam neque aliquid libero
-        nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio
-        corporis earum similique!
-      </p>
-    </details>
-  </div>
-</div>
-
-<footer class="bg-white lg:grid lg:grid-cols-5">
-  <div class="relative block h-32 lg:col-span-2 lg:h-full">
-    <img
-      src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
-      alt=""
-      class="absolute inset-0 h-full w-full object-cover"
-    />
-  </div>
-
-  <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8 bg-gray-900">
-    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
-      <div>
-        <p>
-          <span class="text-xs uppercase tracking-wide text-gray-100">
-            Email
-          </span>
-
-          <a
-            href="#"
-            class="block text-2xl font-medium text-gray-100 hover:opacity-75"
-          >
-            shivanshshekhar11@gmail.com
-          </a>
-        </p>
-
-        <ul class="mt-8 flex gap-6">
-          <li>
-            <a
-              href="/"
-              rel="noreferrer"
-              target="_blank"
-              class="text-gray-100 transition hover:opacity-75"
-            >
-              <span class="sr-only">Twitter</span>
-
-              <svg
-                class="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-                />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="/"
-              rel="noreferrer"
-              target="_blank"
-              class="text-gray-100 transition hover:opacity-75"
-            >
-              <span class="sr-only">GitHub</span>
-
-              <svg
-                class="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
+          My Github
+        </a>
       </div>
+    </div>
+  </section>
 
-      <div class="sm:text-right">
+  <div class="sm:px-32 px-8 py-12 bg-gray-900 text-white">
+    <h3
+      class="sm:text-4xl lg:text-5xl text-3xl font-bold text-blue-500 text-center mb-8"
+    >
+      Achievements
+    </h3>
+    <div class="space-y-4">
+      <details class="group border-s-4 border-blue-600 bg-gray-900 p-6" open>
+        <summary
+          class="flex cursor-pointer items-center justify-between gap-1.5"
+        >
+          <h2 class="text-lg font-medium text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </h2>
+        </summary>
+
+        <p class="mt-4 leading-relaxed text-white">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+          veritatis molestias culpa in, recusandae laboriosam neque aliquid
+          libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+          distinctio corporis earum similique!
+        </p>
+      </details>
+    </div>
+  </div>
+
+  <footer class="bg-white lg:grid lg:grid-cols-5" id="Contact">
+    <div class="relative block h-32 lg:col-span-2 lg:h-full">
+      <img
+        src="../assets/footer.jpg"
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </div>
+
+    <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8 bg-gray-900">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div>
-          <p class="font-medium text-gray-100">Services</p>
+          <p>
+            <span class="text-xs uppercase tracking-wide text-gray-100">
+              Email
+            </span>
 
-          <ul class="mt-6 space-y-4 text-sm">
+            <a
+              href="#"
+              class="block text-2xl font-medium text-gray-100 hover:opacity-75"
+            >
+              shivanshshekhar11@gmail.com
+            </a>
+          </p>
+
+          <ul class="mt-8 flex gap-6">
             <li>
-              <a href="#" class="text-gray-100 transition hover:opacity-75">
-                Website Design
+              <a
+                href=""
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-100 transition hover:opacity-75"
+              >
+                <span class="sr-only">LinkedIn</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  viewBox="7.025 7.025 497.951 497.95"
+                  id="linkedin"
+                >
+                  <linearGradient
+                    id="a"
+                    x1="-974.482"
+                    x2="-622.378"
+                    y1="1306.773"
+                    y2="1658.877"
+                    gradientTransform="translate(1054.43 -1226.825)"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0" stop-color="#2489be"></stop>
+                    <stop offset="1" stop-color="#0575b3"></stop>
+                  </linearGradient>
+                  <path
+                    fill="currentColor"
+                    d="M256 7.025C118.494 7.025 7.025 118.494 7.025 256S118.494 504.975 256 504.975 504.976 393.506 504.976 256C504.975 118.494 393.504 7.025 256 7.025zm-66.427 369.343h-54.665V199.761h54.665v176.607zM161.98 176.633c-17.853 0-32.326-14.591-32.326-32.587 0-17.998 14.475-32.588 32.326-32.588s32.324 14.59 32.324 32.588c.001 17.997-14.472 32.587-32.324 32.587zm232.45 199.735h-54.4v-92.704c0-25.426-9.658-39.619-29.763-39.619-21.881 0-33.312 14.782-33.312 39.619v92.704h-52.43V199.761h52.43v23.786s15.771-29.173 53.219-29.173c37.449 0 64.257 22.866 64.257 70.169l-.001 111.825z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-100 transition hover:opacity-75"
+              >
+                <span class="sr-only">Twitter</span>
+
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                  />
+                </svg>
               </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-100 transition hover:opacity-75">
-                Front-End Development
-              </a>
-            </li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-100 transition hover:opacity-75"
+              >
+                <span class="sr-only">GitHub</span>
 
-            <li>
-              <a href="#" class="text-gray-100 transition hover:opacity-75">
-                Server Side Development
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="text-gray-100 transition hover:opacity-75">
-                Product Consulting
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
               </a>
             </li>
           </ul>
         </div>
+
+        <div class="sm:text-right">
+          <div>
+            <p class="font-medium text-gray-100">Services</p>
+
+            <ul class="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="#" class="text-gray-100 transition hover:opacity-75">
+                  Website Design
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="text-gray-100 transition hover:opacity-75">
+                  Front-End Development
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="text-gray-100 transition hover:opacity-75">
+                  Server Side Development
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="text-gray-100 transition hover:opacity-75">
+                  Product Consulting
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 border-t border-gray-100 pt-12">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <ul class="flex flex-wrap gap-4 text-xs">
+            <li>
+              <a href="#" class="text-gray-200 transition hover:opacity-75">
+                Terms & Conditions
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-200 transition hover:opacity-75">
+                Development
+              </a>
+            </li>
+          </ul>
+
+          <p class="mt-8 text-xs text-gray-200 sm:mt-0">
+            &copy; 2024. Shivansh Shekhar. All rights reserved.
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="mt-12 border-t border-gray-100 pt-12">
-      <div class="sm:flex sm:items-center sm:justify-between">
-        <ul class="flex flex-wrap gap-4 text-xs">
-          <li>
-            <a href="#" class="text-gray-200 transition hover:opacity-75">
-              Terms & Conditions
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="text-gray-200 transition hover:opacity-75">
-              Development
-            </a>
-          </li>
-        </ul>
-
-        <p class="mt-8 text-xs text-gray-200 sm:mt-0">
-          &copy; 2024. Shivansh Shekhar. All rights reserved.
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
+  </footer>
+</div>
