@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "homepage": "https://shivanshshekhar11.github.io/portfolio/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
